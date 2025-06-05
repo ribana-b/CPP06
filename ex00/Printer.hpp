@@ -6,12 +6,12 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:57 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:05:58 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 19:57:28 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PRINTER_H
-# define PRINTER_H
+#ifndef PRINTER_HPP
+# define PRINTER_HPP
 
 /* @------------------------------------------------------------------------@ */
 /* |                            Include Section                             | */

@@ -6,12 +6,12 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:34 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:20:20 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 19:57:24 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PARSER_H
-# define PARSER_H
+#ifndef PARSER_HPP
+# define PARSER_HPP
 
 /* @------------------------------------------------------------------------@ */
 /* |                            Include Section                             | */

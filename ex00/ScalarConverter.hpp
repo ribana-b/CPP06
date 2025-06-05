@@ -6,12 +6,12 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:44 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:05:44 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 19:57:35 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SCALARCONVERTER_H
-# define SCALARCONVERTER_H
+#ifndef SCALARCONVERTER_HPP
+# define SCALARCONVERTER_HPP
 
 /* @------------------------------------------------------------------------@ */
 /* |                            Include Section                             | */
