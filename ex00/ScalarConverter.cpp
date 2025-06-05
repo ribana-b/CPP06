@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:38 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:05:40 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 18:28:16 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,9 @@ void	ScalarConverter::convert(const std::string number)
 	try
 	{
 		Parser::Type type = Parser::detectType(number);
+		std::cout << "==============================" << std::endl;
+		std::cout << "Input: '" << number << "'" << std::endl;
+		std::cout << "==============================" << std::endl;
 		switch (type)
 		{
 			case Parser::SC_CHAR:
