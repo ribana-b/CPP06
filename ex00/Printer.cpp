@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:50 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:05:51 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 21:09:41 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,22 +27,22 @@
 
 Printer::Printer()
 {
-	std::cout << "Printer Default constructor called" << std::endl;
+	OCF_MESSAGE("Printer Default constructor called");
 }
 
 Printer::~Printer()
 {
-	std::cout << "Printer Destructor called" << std::endl;
+	OCF_MESSAGE("Printer Destructor called");
 }
 
 Printer::Printer(const Printer&)
 {
-	std::cout << "Printer Copy constructor called" << std::endl;
+	OCF_MESSAGE("Printer Copy constructor called");
 }
 
 Printer&	Printer::operator=(const Printer&)
 {
-	std::cout << "Printer Assignment operator called" << std::endl;
+	OCF_MESSAGE("Printer Assignment operator called");
 	return (*this);
 }
 

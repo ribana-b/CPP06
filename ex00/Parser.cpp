@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:29 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 18:05:30 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 21:08:53 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,22 +24,22 @@
 
 Parser::Parser()
 {
-	std::cout << "Parser Default constructor called" << std::endl;
+	OCF_MESSAGE("Parser Default constructor called");
 }
 
 Parser::~Parser()
 {
-	std::cout << "Parser Destructor called" << std::endl;
+	OCF_MESSAGE("Parser Destructor called");
 }
 
 Parser::Parser(const Parser&)
 {
-	std::cout << "Parser Copy constructor called" << std::endl;
+	OCF_MESSAGE("Parser Copy constructor called");
 }
 
 Parser&	Parser::operator=(const Parser&)
 {
-	std::cout << "Parser Assignment operator called" << std::endl;
+	OCF_MESSAGE("Parser Assignment operator called");
 	return (*this);
 }
 

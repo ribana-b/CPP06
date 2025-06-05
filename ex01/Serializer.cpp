@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 19:08:18 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 19:23:59 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/05 21:07:53 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,22 +22,22 @@
 
 Serializer::Serializer()
 {
-	std::cout << "Serializer Default constructor called" << std::endl;
+	OCF_MESSAGE("Serializer Default constructor called");
 }
 
 Serializer::~Serializer()
 {
-	std::cout << "Serializer Destructor called" << std::endl;
+	OCF_MESSAGE("Serializer Destructor called");
 }
 
 Serializer::Serializer(const Serializer&)
 {
-	std::cout << "Serializer Copy constructor called" << std::endl;
+	OCF_MESSAGE("Serializer Copy constructor called");
 }
 
 Serializer&	Serializer::operator=(const Serializer&)
 {
-	std::cout << "Serializer Assignment operator called" << std::endl;
+	OCF_MESSAGE("Serializer Assignment operator called");
 	return (*this);
 }
 
