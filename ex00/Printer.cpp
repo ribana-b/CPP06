@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:05:50 by ribana-b          #+#    #+# Malaga      */
-/*   Updated: 2025/06/05 21:09:41 by ribana-b         ###   ########.com      */
+/*   Updated: 2025/06/07 13:19:04 by ribana-b         ###   ########.com      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,11 @@ void	Printer::fromInt(const std::string& input)
 	float valueAsFloat = static_cast<float>(value);
 	double valueAsDouble = static_cast<double>(value);
 
-	if (value < MIN_PRINTABLE_CHAR || value > MAX_PRINTABLE_CHAR)
+	if (value < MIN_CHAR || value > MAX_CHAR)
+	{
+		std::cout << "Char: Impossible" << std::endl;
+	}
+	else if (value < MIN_PRINTABLE_CHAR || value > MAX_PRINTABLE_CHAR)
 	{
 		std::cout << "Char: Non displayable" << std::endl;
 	}
@@ -96,7 +100,11 @@ void	Printer::fromFloat(const std::string& input)
 	else
 	{
 		long int valueAsLongInt = static_cast<long int>(value);
-		if (valueAsLongInt < MIN_PRINTABLE_CHAR || valueAsLongInt > MAX_PRINTABLE_CHAR)
+		if (valueAsLongInt < MIN_CHAR || valueAsLongInt > MAX_CHAR)
+		{
+			std::cout << "Char: Impossible" << std::endl;
+		}
+		else if (valueAsLongInt < MIN_PRINTABLE_CHAR || valueAsLongInt > MAX_PRINTABLE_CHAR)
 		{
 			std::cout << "Char: Non displayable" << std::endl;
 		}
@@ -106,7 +114,7 @@ void	Printer::fromFloat(const std::string& input)
 		}
 		if (valueAsLongInt < MIN_INT || valueAsLongInt > MAX_INT)
 		{
-			std::cout << "Int: Non displayable" << std::endl;
+			std::cout << "Int: Impossible" << std::endl;
 		}
 		else
 		{
@@ -134,7 +142,11 @@ void	Printer::fromDouble(const std::string& input)
 	else
 	{
 		long int valueAsLongInt = static_cast<long int>(value);
-		if (valueAsLongInt < MIN_PRINTABLE_CHAR || valueAsLongInt > MAX_PRINTABLE_CHAR)
+		if (valueAsLongInt < MIN_CHAR || valueAsLongInt > MAX_CHAR)
+		{
+			std::cout << "Char: Impossible" << std::endl;
+		}
+		else if (valueAsLongInt < MIN_PRINTABLE_CHAR || valueAsLongInt > MAX_PRINTABLE_CHAR)
 		{
 			std::cout << "Char: Non displayable" << std::endl;
 		}
@@ -144,7 +156,7 @@ void	Printer::fromDouble(const std::string& input)
 		}
 		if (valueAsLongInt < MIN_INT || valueAsLongInt > MAX_INT)
 		{
-			std::cout << "Int: Non displayable" << std::endl;
+			std::cout << "Int: Impossible" << std::endl;
 		}
 		else
 		{
